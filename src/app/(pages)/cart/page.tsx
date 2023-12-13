@@ -88,4 +88,3 @@ export async function generateMetadata(): Promise<Metadata> {
 
   return generateMeta({ doc: page })
 }
-

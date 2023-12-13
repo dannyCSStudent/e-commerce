@@ -34,9 +34,6 @@ export default async function Checkout() {
         <CheckoutPage settings={settings} />
       </Gutter>
     </div>
-    
-      
-
   )
 }
 
