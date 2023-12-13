@@ -34,7 +34,6 @@ export const CheckoutPage: React.FC<{
   const [clientSecret, setClientSecret] = React.useState()
   const hasMadePaymentIntent = React.useRef(false)
   const { theme } = useTheme()
-
   const { cart, cartIsEmpty, cartTotal } = useCart()
 
   useEffect(() => {
