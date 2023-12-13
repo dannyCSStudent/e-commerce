@@ -7,7 +7,6 @@ import CategoryCard from './CategoryCard'
 import classes from './index.module.scss'
 
 const Categories = ({ categories }: { categories: Category[] }) => {
-    
   return (
     <section className={classes.container}>
       <div className={classes.titleWrapper}>

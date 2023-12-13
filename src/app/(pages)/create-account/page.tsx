@@ -1,12 +1,14 @@
 import React from 'react'
 import { Metadata } from 'next'
+import Image from 'next/image'
+import Link from 'next/link'
+
 import { RenderParams } from '../../_components/RenderParams'
 import { getMeUser } from '../../_utilities/getMeUser'
 import { mergeOpenGraph } from '../../_utilities/mergeOpenGraph'
 import CreateAccountForm from './CreateAccountForm'
+
 import classes from './index.module.scss'
-import Link from 'next/link'
-import Image from 'next/image'
 
 export default async function CreateAccount() {
   await getMeUser({
@@ -19,7 +21,7 @@ export default async function CreateAccount() {
     <section className={classes.createAccount}>
       <div className={classes.heroImg}>
         <Link href="/">
-          <Image 
+          <Image
             src="/logo-black.svg"
             alt="logo"
             width={250}

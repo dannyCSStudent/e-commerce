@@ -7,7 +7,6 @@ import { Checkbox } from '../../../_components/Checkbox'
 import { HR } from '../../../_components/HR'
 import { RadioButton } from '../../../_components/Radio'
 import { useFilter } from '../../../_providers/Filter'
-
 import classes from './index.module.scss'
 
 const Filters = ({ categories }: { categories: Category[] }) => {
